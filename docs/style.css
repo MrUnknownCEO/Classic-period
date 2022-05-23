@@ -1,0 +1,116 @@
+ {
+	box-sizing: border-box;
+  }
+
+  body {
+  	font-family: Arial, Helvetica, sans-serif;
+  }
+  /*Gobal*/
+  .container{
+  	width: 80%;
+  	margin: auto;
+  	overflow: hidden;
+  }
+
+}
+  ul{
+ margin: 0;
+ padding: 0;
+  }
+
+/*Header*/
+/*.button_1{
+	height 
+}*/
+
+  header
+  {
+  	background-color: #35424a;
+  	color: rosybrown; 
+  	padding-top: 30px;
+  	min-height: 90px;
+  	border-bottom: orange 3px solid; 
+  }
+  header a{
+  	color: pink;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	font-size: 16px;
+  }
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+  header #branding{
+  	float: left;
+  }
+
+  header #branding h2{
+margin: 0;
+  }
+
+  header nav{
+  	float: right;
+  	margin-top: 10px;
+  }
+
+  header .highlight, header .current a{
+  	color:darkred;
+  	font-weight: bold;
+  }
+
+  header a:hover{
+  	color: red;
+  	font-weight: bold;
+  }
+
+  .dark{
+    padding: 15px;
+    background: #35424a;
+    color: whitesmoke;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  /*showcase*/
+  #showcase{
+  	min-height: 700px;
+  	background: url('maya.jpg') no-repeat 0 -5px;
+    background-size: 1350px;
+  	text-align: center;
+  	color: grey;
+  }
+
+  #showcase h1{
+  	margin-top: 100px;
+  	font-size: 20px;
+  	margin-bottom: 10px;
+  }
+
+  #boxes p{
+  text-align: left;
+  text-indent: 10px;
+  }
+
+#bruh p{
+  text-align: left;
+  text-indent: 40px;
+  padding-left: 100px;
+  }
+
+  #bruh{
+    background-color: grey;
+    text-align: center;
+    padding-right: 100px;
+
+  }
+   footer{
+   	padding: 20px;
+   	margin-top: 5px;
+   	color: white;
+   	background-color: #a8491d;
+   	text-align: center;
+   }
+
